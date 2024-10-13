@@ -1,0 +1,44 @@
+.aboutPage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.aboutHeader {
+    margin-bottom: 30px;
+}
+
+.aboutTitle {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.aboutIntro {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.aboutContent {
+    text-align: left;
+}
+
+.sectionTitle {
+    
+    font-size: 1.6rem;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.sectionText {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

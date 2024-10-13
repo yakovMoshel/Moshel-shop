@@ -1,0 +1,50 @@
+// @import './mixins.scss';
+
+
+.header {
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color:rgba(214, 202, 189, 0.3);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    h2 {
+        font-family: 'Bamberger FM', sans-serif;
+        font-weight: bold; 
+        padding-left: 150px;
+        font-size: 2.5rem;
+        color: rgba(116, 65, 29, 1)
+        
+    }
+    .nav {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 70px;
+       
+            li {
+               
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    transition: color 0.3s;
+                    border-radius: 10px;
+                    padding: 7px;
+
+                    &:hover,
+                    &.active {
+                        text-decoration:underline;
+                        color: #333;
+                    }
+                }
+            }
+        }
+    }
+}
