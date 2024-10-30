@@ -14,7 +14,7 @@ export default function Header() {
     <nav className={styles.nav}>
       <ul>
         <li> <Link href="/" className={path === '/' ? styles.active : ''}>ראשי</Link></li>
-        <li> <Link href="/cart" className={path === '/cart' ? styles.active : ''}>וילונות</Link></li>
+        <li> <Link href="/cart" className={path === '/cart' ? styles.active : ''}>עגלת הקניות</Link></li>
         <li> <Link href="/cart" className={path === '/cart' ? styles.active : ''}>ריפוד</Link></li>
         <li> <Link href="/shop" className={path === '/shop' ? styles.active : ''}>גלריה</Link></li>
         <li ><Link href="/about" className={path === '/about' ? styles.active : ''} >אודות</Link></li> 

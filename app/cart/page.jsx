@@ -12,6 +12,7 @@ export default function cart() {
     setCartItems(cart);
   }, []);
 
+ 
 
   return (
     <div className={styles.cartPage}>
@@ -19,7 +20,7 @@ export default function cart() {
       {cartItems.length === 0 ? (
         <p className={styles.emptyCartMessage}>העגלה ריקה</p>
       ) : (
-       <ProdactsList products={cartItems} />
+       <ProdactsList products={cartItems} setCartItems={setCartItems} />
       )}
      <OrderButton items={cartItems} />
     </div>

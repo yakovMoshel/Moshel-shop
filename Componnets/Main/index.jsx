@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style.module.scss'
 
-export default function () {
+export default function Main () {
     return (
         <div className={styles.main}>
             <h1>מושל הוילונות</h1>
